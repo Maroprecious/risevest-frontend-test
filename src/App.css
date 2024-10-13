@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'TomatoGrotesk-SemiBold';
+  src: url('../src//assets/fonts/Tomato_Grotesk/TomatoGrotesk-SemiBold.woff2') format('woff2'),
+    url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TomatoGrotesk-Regular';
+  src: url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Regular.woff2') format('woff2'),
+    url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TomatoGrotesk-Bold';
+  src: url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Bold.woff2') format('woff2'),
+    url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TomatoGrotesk-Light';
+  src: url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Light.woff2') format('woff2'),
+    url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TomatoGrotesk-Medium';
+  src: url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Medium.woff') format('woff2'),
+    url('../src/assets/fonts/Tomato_Grotesk/TomatoGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans-Regular';
+  src: url('../src/assets/fonts/DM_Sans/DMSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans-Medium';
+  src: url('../src/assets/fonts/DM_Sans/DMSans-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans-Light';
+  src: url('../src/assets/fonts/DM_Sans/DMSans-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+:root {
+  --teal-1: #07969E;
+  --teal-2: #40BBC3;
+  --teal-3: #A0DDE2;
+  --teal-4: #ECFEFE;
+
+  /* background */
+  --primary-100: #FFFFFF;
+  --primary-200: rgba(145, 159, 181, 0.2);
+  --primary-400: #7B8DA8;
+
+  /* black */
+  --black-1: #4A5050;
+  --black-2: #2D2D2D;
+
+  /* orange */
+  --orange-4: #FFF4F0;
+
+  /* indigo*/
+  --indigo-1: #8C5FF8;
+  --indigo-4: #F6F2FF;
+
+
+
+  --softbody-text: #919FB5;
+
+  /* Font */
+  --font-tomato-semibold: "TomatoGrotesk-SemiBold", sans-serif;
+  --font-tomato-regular: "TomatoGrotesk-Regular", sans-serif;
+  --font-tomato-bold: "TomatoGrotesk-Bold", sans-serif;
+  --font-tomato-light: "TomatoGrotesk-Light", sans-serif;
+  --font-dmsans-regular: "DMSans-Regular", sans-serif;
+  --font-dmsans-light: "DMSans-Light", sans-serif;
+  --font-dmsans-medium: "DMSans-Medium", sans-serif;
+  --font-tomato-medium: "TomatoGrotesk-Medium", sans-serif;
+}
+
+
+.regulation-bg {
+  background-image: url('../src/assets/images/png/bg.png');
+  width: 100%;
+  height: 372px;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+}
+
+.anime-1 {
+  text-align: start;
+  overflow: hidden;
+}
+
+.anime-1 h1 {
+  animation-name: anime1;
+  transform: translateY(112px);
+  animation-timing-function: cubic-bezier(0.965, 0.090, 0.160, 0.835);
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.anime-1:nth-of-type(2) h1{
+  animation-delay: 300ms;
+}
+
+@keyframes anime1 {
+  from {
+    transform: translateY(62px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.arrows {
+  transition: ease-in-out 300ms;
+}
+
+.arrows span:nth-child(1) {
+  opacity: 0;
+  transition: ease-in-out 300ms;
+}
+
+#section-links:hover .arrows {
+  transform: translateX(20px);
+}
+
+#section-links:hover .arrows span:nth-child(1) {
+  opacity: 1;
+}
+
+#section-links:hover .arrows span:nth-child(2) {
+  opacity: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .anime-right {
+    transform: translateX(385px);
+    animation-name: anime-right-animation;
+    animation-timing-function: cubic-bezier(0.965, 0.090, 0.160, 0.835);
+    animation-duration: 900ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+}
+
