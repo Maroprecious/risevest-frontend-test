@@ -105,7 +105,7 @@ export const HeroSection = () => {
           className="w-[36px] h-[36px] lg:w-[56px] lg:h-[56px] md:w-[56px] md:h-[56px] bg-teal-3 absolute bottom-[-35px] lg:right-[90px] lg:opacity-100 opacity-[30%] right-[50px] rounded-full"
         />
       </div>
-      <div className="flex flex-col justify-start px-8 lg:mt-0 md:mt-[370px] mt-[300px]">
+      <div className="flex flex-col justify-start px-8 lg:mt-0 md:mt-[450px] mt-[300px]">
         <p className="text-primary-400 font-dmsans-medium text-[18px  lg:hidden">
           We are supported by
         </p>

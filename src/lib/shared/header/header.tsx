@@ -126,7 +126,7 @@ export const Header = () => {
                       : "font-tomato-light"
                   }`}
                 >
-                  {elem} <span>&darr;</span>
+                  {elem}
                 </p>
               </div>
               <motion.div
