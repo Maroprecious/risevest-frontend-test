@@ -1,6 +1,5 @@
 import { Goals } from "../utils";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 export const GoalsSection = () => {
   return (

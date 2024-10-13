@@ -2,19 +2,20 @@ import { inViewVariant } from "@/config/motion.variant";
 import Apple from "@assets/images/svg/download-apple.svg";
 import GooglePlay from "@assets/images/svg/download-google.svg";
 import Phone from "@assets/images/svg/phone2.svg";
-import { easeIn, motion } from "framer-motion";
-
+import { motion } from "framer-motion";
 
 export const DownloadSection = () => {
   return (
     <motion.div
-    variants={inViewVariant}
-    initial="hidden"
-    whileInView="inView"
-    viewport={{
-      once: true,
-      margin: "-200px",
-    }} className="lg:px-20 md:px-8 px-6 mt-[90px]">
+      variants={inViewVariant}
+      initial="hidden"
+      whileInView="inView"
+      viewport={{
+        once: true,
+        margin: "-200px",
+      }}
+      className="lg:px-20 md:px-8 px-6 mt-[90px]"
+    >
       <div className="w-full lg:h-[394px] md:h-[394px] h-[400px] bg-teal-4 rounded-[50px] lg:px-8 lg:py-8 md:px-8 md:py-8 px-4 py-4 flex lg:flex-row md:flex-row flex-col justify-between items-center">
         <div className="lg:w-[50%] md:w-[50%] w-full lg:mt-12 md:mt-12 mt-8">
           <p className="text-teal-1 lg:text-left md:text-left text-center font-dmsans-medium">

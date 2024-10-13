@@ -1,6 +1,6 @@
 import { AssetOptions } from "@/utils";
-import { motion, useInView } from "framer-motion";
-import { useCallback, useRef } from "react";
+import { motion } from "framer-motion";
+import { useCallback } from "react";
 
 export const AssetSection = () => {
   const bgColors = ["bg-orange-4", "bg-indigo-4", "bg-teal-4"];

@@ -1,7 +1,7 @@
 import Button from "@/lib/ui/button/button";
 import Phone from "../assets/images/png/phone.png";
-import { easeIn, motion } from "framer-motion";
-import { bounceVariant, inViewVariant } from "@/config/motion.variant";
+import { motion } from "framer-motion";
+import { inViewVariant } from "@/config/motion.variant";
 
 export const SavingSection = () => {
   return (

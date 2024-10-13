@@ -2,7 +2,7 @@ import GooglePlay from "../assets/images/svg/download-google.svg";
 import Apple from "../assets/images/svg/download-apple.svg";
 import Phone from "../assets/images/svg/phone.svg";
 import { SupportList } from "../utils";
-import { Variant, easeIn, motion, spring } from "framer-motion";
+import { easeIn, motion } from "framer-motion";
 import { bounceVariant } from "@/config/motion.variant";
 
 export const HeroSection = () => {
