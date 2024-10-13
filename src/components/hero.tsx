@@ -28,11 +28,11 @@ export const HeroSection = () => {
               <div className="anime-1 overflow-hidden">
                 <h1>Dollar investments</h1>
               </div>
-              <div className="anime-1 overflow-hidden">
+              <div className="anime-1 pb-1">
                 <h1>that help you grow</h1>
               </div>
             </h1>
-            <div className="w-[10px] h-[10px] lg:bg-teal-2 bg-teal-3 rounded-full absolute lg:bottom-8 bottom-4 lg:right-1 right-[1px]" />
+            <div className="w-[10px] h-[10px] lg:bg-teal-2 bg-teal-3 rounded-full absolute lg:bottom-8 md:bottom-8  bottom-4 lg:right-[-7px] right-[-9px]" />
           </div>
           <motion.p
             initial={{
@@ -47,7 +47,7 @@ export const HeroSection = () => {
                 duration: 0.7,
               },
             }}
-            className="font-dmsans-medium text-center lg:text-left lg:text-[16px] text-[14px] text-black-1 mt-4 max-w-lg lg:pr-20"
+            className="font-dmsans-medium text-center  lg:text-left lg:text-[16px] text-[14px] text-black-1 mt-4 max-w-lg lg:pr-20"
           >
             We put your money in high-quality assets that help you build wealth
             and achieve your financial goals.

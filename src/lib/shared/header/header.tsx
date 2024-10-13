@@ -69,7 +69,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="lg:hidden flex fixed z-[200] items-center justify-between w-full bg-primary-100 p-6">
+      <div className="lg:hidden flex fixed z-[600] items-center justify-between w-full bg-primary-100 p-6">
         <div className="w-[60px] h-[17.69px]">
           <img
             src={Logo}
