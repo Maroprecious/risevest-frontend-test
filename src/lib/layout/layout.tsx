@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { LayoutProps } from "../types/global";
 import { Header } from "../shared";
+import { Footer } from "@/components";
 
 export const Layout: FC<LayoutProps> = ({ children }) => {
   return (
@@ -13,6 +14,7 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
         </div>
       </div>
       {children}
+      <Footer />
     </div>
   );
 };

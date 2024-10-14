@@ -2,7 +2,6 @@ import {
   AssetSection,
   CommunitySection,
   DownloadSection,
-  Footer,
   GoalsSection,
   HeroSection,
   RegulationSection,
@@ -30,7 +29,6 @@ export default function Home() {
         <div className="mx-auto max-w-wide">
           <CommunitySection />
           <DownloadSection />
-          <Footer />
         </div>
       </div>
     </Layout>
